@@ -393,3 +393,68 @@ z-index: 1;
         margin-right:0px;
     }
 }
+.skills-container{
+    position:relative;
+    display: flex;
+    padding: 5rem;
+    margin:10rem auto;
+    gap:30px;
+}
+.skill-container-left{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.skill-container-right{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    position:relative;
+    gap:2rem;
+    justify-content: center;
+}
+.skill-fade-text{
+    position:absolute;
+    user-select: none;
+    font-size: 15em;
+    font-style:bold;
+    color:rgb(231,231,231);
+    bottom:-40.5%;
+    right:-25%;
+    overflow-y:hidden;
+}
+.blob-style{
+    position:absolute;
+    top: 25%;
+    left:50%;
+    animation: idharudhar 5s linear infinite;
+    z-index: -1;
+}
+@keyframes idharudhar {
+    50%{
+        top:0%;
+        left:10%;
+    }
+}
+.skills-logo{
+    width:90px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.skills-logo:hover{
+    transform: scale(1.2);
+}
+.skill-heading{
+    font-size:50px;
+    font-style:bold;
+    color:var(--bgOrange);
+
+}
+.caps{
+    font-size:90px;
+}
+.skill-subHeading{
+    font-size:20px;
+    font-weight: 500;
+}
+
