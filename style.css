@@ -17,6 +17,10 @@
     overflow-x:hidden;
 
 }
+.project-container a{
+    color: white;
+    text-decoration: none;
+}
 .container{
     width: 1200px;
     margin: 0 auto;
